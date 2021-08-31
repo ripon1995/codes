@@ -18,6 +18,12 @@ bool cmp(Point A, Point B)
     return false;
 }
 
+bool comparator(Point A,Point B)
+{
+    if(A.x!=B.x)return A.x<B.x;
+    return A.y<B.y;
+}
+
 int main()
 {
     Point p[4];
@@ -35,8 +41,8 @@ int main()
         cout<<p[i].x<<" "<<p[i].y<<endl;
     }
 
-
-    sort(p,p+4,cmp);
+    //sort(p,p+4,cmp);
+    sort(p,p+4,comparator);
 
     cout<<"After sorting: "<<endl;
     for(int i=0;i<4;i++)
