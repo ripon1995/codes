@@ -1,0 +1,35 @@
+
+#ordered map
+/*
+
+map<keyType,valueType> map_name;
+
+keyType ==>int,char,string,bool,double etc;
+valueType===>anything
+
+##### methods:
+1. operator map_name[key] returns value
+2. count(key) returns 0(is key is not present)  or 1(if key is present)
+3. erase(key) removes the key
+4. erase(itrator) rempves the key
+5. lower_bound(key) return the lower_bound
+6. upper_bound(key) return the upper_bound
+
+all operations are done in logn time
+
+*/
+
+#unordered map
+/*
+
+unordered_map<keyType,valueType>map_name9;
+
+#### methods: 
+1. operator map_name[key] returns the value
+2. count(key) returns 0(if the key is not present) or 1(if the key is present)
+3. erase(key)
+4. erase(iterator)
+
+all operations are done in O(1)
+
+*/

@@ -1,0 +1,14 @@
+
+
+# sorted set 
+
+/*
+    set<dataType>set_name;
+    
+    method:
+        1. set.insert(val);
+        2. set.erase(val);
+        3. *set.upper_bound(val);
+        4. *set.lower_bound(val);
+        5. set.count();
+*/
